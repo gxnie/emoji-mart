@@ -54,7 +54,7 @@ export default class Preview extends React.PureComponent {
 
           <div className="emoji-mart-preview-data" aria-hidden="true">
             <div className="emoji-mart-preview-name">{emoji.name}</div>
-            <div className="emoji-mart-preview-shortnames">
+            {/* <div className="emoji-mart-preview-shortnames">
               {emojiData.short_names.map((short_name) => (
                 <span key={short_name} className="emoji-mart-preview-shortname">
                   :{short_name}:
@@ -67,7 +67,7 @@ export default class Preview extends React.PureComponent {
                   {emoticon}
                 </span>
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
       )
